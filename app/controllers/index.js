@@ -1,5 +1,5 @@
-function doClick(e) {
-    alert($.label.text);
-}
+$.curlang.text =  Titanium.Platform.locale;  // Showing the current language setting
 
-$.index.open();
+$.label1.text = L("text1"); // Setting the localized string from the controller code 
+
+$.win.open();

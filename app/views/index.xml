@@ -1,5 +1,9 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window id="win">
+		<View top="5%" layout="vertical">
+			<Label id="curlang" />
+			<Label id="label1">Hello, World</Label>
+			<Label id="label2" text="L('text2')" /> <!-- Setting the localized string from the xml -->
+		</View>
 	</Window>
 </Alloy>
